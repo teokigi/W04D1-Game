@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel='stylesheet' href='/css/style.css'>
      <title>Document</title>
 </head>
 <body>
-    <h1> L A Y O U T</h1>
-    <%= yield%>
+<h1 class="page_title"> Home of the Rock Paper Scissors legendary tournament</h1>
+<hr>
     <nav>
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/rules">Rules</a></li>
-        <li><a href="/game_start">Restart Game</a></li>
-
-    </ul>
+    <table><tr align='center'>
+        <td><a href="/"><h2>Home</h2></a></td>
+        <td><a href="/rules"><h2>Rules</h2></a></td>
+        <!--<td><a href="/game_start">Game</a></td>-->
+        </tr>
+        </table>
 </nav>
+<hr>
+    <%= yield%>
+
 </body>
 </html>

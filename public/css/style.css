@@ -1,0 +1,15 @@
+body {
+    background-color: lightblue;
+}
+
+.page_title {
+    color:yellow;
+    text-align:center;
+    text-shadow: 2px 2px #FF0000;
+
+}
+table{
+    width:100%;
+    align-content:center;
+    text-align:center;
+}
