@@ -1,0 +1,2 @@
+create empty base of models, public and views
+create in models the game_rps class
