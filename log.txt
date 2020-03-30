@@ -1,2 +1,21 @@
 create empty base of models, public and views
 create in models the game_rps class
+TDD
+code game logic
+code controller
+code browser route
+check browser works
+
+
+-Create a Simple Sinatra App to allow the user to play, rock, paper, scissors in their browser.
+    - You should be able to go to /rock/scissors and return the string "rock wins" to the page, for example.
+
+    - You will need to write a bit of logic that compares the two hands and decides which one haswon, and then use that in the route definition
+
+    - Next, create a models directory for your game logic class.
+Extensions:
+    - Add an ERB view file for returning the result of the game, rather than just sending a string.
+    - Add a welcome page(and a route to get it) to explain the rules before the user picks their move. Add a link to this on the result view.
+    - Add some CSS to either/both of your pages.
+Further extension:
+    - Think about how you might differentiate between the two people playing the game - currently we don't know who has won, just which hand.
