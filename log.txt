@@ -18,4 +18,4 @@ Extensions:
     - Add a welcome page(and a route to get it) to explain the rules before the user picks their move. Add a link to this on the result view.
     - Add some CSS to either/both of your pages.
 Further extension:
-    - Think about how you might differentiate between the two people playing the game - currently we don't know who has won, just which hand.
+    - Think about how you might differentiate between the two people playing the game - currently we don't know who has won, just which hand.(done)
